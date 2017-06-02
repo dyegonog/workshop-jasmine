@@ -1,0 +1,10 @@
+<div class="login-page">
+  <div class="form">
+    <form class="login-form" (submit)="verificar()">
+      <input name="first" type="text" [(ngModel)]="valor" />
+      <button>verificar</button>
+      <p class="message">{{resultado}}</p>
+      <p class="help" (click)="navegar()">Duvidas?</p>
+    </form>
+  </div>
+</div>
